@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Student portfolio of Bella (Mary Unogwu), Computer Science student at MIVA Open University.">
+<title>Planner | Bella (Mary Unogwu)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="index.html">Bella</a><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html" class=on>Planner</a><a href="contact.html">Contact</a></nav></div></header>
+<main><div class="wrap">
+<div class="eyebrow">Planner</div>
+<h2>Plan my days</h2>
+<p class="muted">Add a task, mark it done, or delete it. Your tasks are saved in this browser.</p>
+<div class="add">
+<input type="text" id="t" placeholder="Add a task…" aria-label="Task">
+<input type="date" id="d" aria-label="Due date">
+<select id="c" aria-label="Category"><option>Study</option><option>Project</option><option>Personal</option></select>
+<button class="btn" id="go">Add</button>
+</div>
+<div class="err" id="tmsg" style="margin:-16px 0 16px"></div>
+<div class="cols" id="cols"></div>
+</div></main>
+<footer>&copy; <span id="year">2026</span> Bella (Mary Unogwu) &middot; Computer Science, MIVA Open University</footer>
+<script src="script.js"></script>
+</body>
+</html>
